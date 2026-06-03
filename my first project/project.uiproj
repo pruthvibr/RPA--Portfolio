@@ -1,0 +1,6 @@
+{
+  "Name": "my first project",
+  "ProjectType": "Process",
+  "Description": "web automation\r\n",
+  "MainFile": "Main.xaml"
+}
