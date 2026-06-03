@@ -1,0 +1,61 @@
+{
+  "name": "Invoice Processing Bot",
+  "projectId": "aab211f3-95a3-435c-838f-5b93c5a006e2",
+  "description": "Built an Accounts Payable RPA bot using UiPath that automatically scans local directories, reads native PDF invoices, and extracts critical financial data like Invoice Numbers and Total Amounts.\nStreamlines financial workflows by eliminating manual data entry, demonstrating core skills in PDF Automation, iterative file processing, and structured data extraction.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[3.5.1]",
+    "UiPath.Mail.Activities": "[1.22.2]",
+    "UiPath.MicrosoftOffice365.Activities": "[3.9.10]",
+    "UiPath.PDF.Activities": "[4.2.0-preview]",
+    "UiPath.System.Activities": "[26.4.1-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "26.0.194.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "96a95fe7-d225-4016-9dfb-f153f1ffdafe",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

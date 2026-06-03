@@ -1,0 +1,6 @@
+{
+  "Name": "Invoice Processing Bot",
+  "ProjectType": "Process",
+  "Description": "Built an Accounts Payable RPA bot using UiPath that automatically scans local directories, reads native PDF invoices, and extracts critical financial data like Invoice Numbers and Total Amounts.\nStreamlines financial workflows by eliminating manual data entry, demonstrating core skills in PDF Automation, iterative file processing, and structured data extraction.",
+  "MainFile": "Main.xaml"
+}
